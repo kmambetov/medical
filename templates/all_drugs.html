@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block page %}
+    <ol>
+        {% for drug in drugs_list %}
+            <li>{{ drug }}</li>
+        {% endfor %}
+    </ol>
+{% endblock %}
+ 
